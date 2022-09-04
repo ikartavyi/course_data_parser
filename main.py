@@ -27,7 +27,7 @@ def parse_weather_data(period_start=pd.Period('2021-10-01'), period_end=pd.Perio
             'html': str(actions_parsing.get_soup_tags_from_html(x['html'], selectors)['tag'][0])
         } for x in results
     ]
-    actions_parsing.save_results_to_file(tables, 'datasets/data_tables.json')
+    actions_parsing.save_results_to_file(tables, 'datasets/weather_data_tables.json')
     pass
 
 
