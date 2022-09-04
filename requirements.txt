@@ -1,0 +1,14 @@
+pandas>=1.4.1
+aiohttp>=3.8.1
+beautifulsoup4>=4.10.0
+google-api-core>=1.26.0
+google-cloud-core>=1.6.0
+google-cloud-bigquery>=2.10.0
+google-cloud-bigquery-storage>=2.3.0
+pandas>=1.2.2
+pyarrow>=3.0.0
+google-api-python-client>=1.7.9
+google-auth-httplib2>=0.0.3
+google-auth-oauthlib>=0.4.0
+numpy>=1.22.3
+db-dtypes>=1.0.0
